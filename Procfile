@@ -1,1 +1,1 @@
-web: gunicorn tunr_django.wsgi.application --log-file -
+web: gunicorn tunr_django.wsgi --log-file -
