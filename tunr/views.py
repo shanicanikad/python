@@ -1,12 +1,12 @@
-# from django.shortcuts import render, redirect
-# from django.views import View
-# from django.views.generic import ListView, DetailView, CreateView, DeleteView, UpdateView
-# from django.urls import reverse_lazy
-# from .models import Artist, Song
-# from .forms import ArtistForm, SongForm
-# from .serializers import ArtistSerializer
-# from .serializers import SongSerializer
-# from rest_framework import permissions
+from django.shortcuts import render, redirect
+from django.views import View
+from django.views.generic import ListView, DetailView, CreateView, DeleteView, UpdateView
+from django.urls import reverse_lazy
+from .models import Artist, Song
+from .forms import ArtistForm, SongForm
+from .serializers import ArtistSerializer
+from .serializers import SongSerializer
+from rest_framework import permissions
 
 # from rest_framework import generics
 # from .models import Artist, Song

@@ -26,7 +26,7 @@ urlpatterns = [
     url(r'^artists/(?P<pk>\d+)/delete$', views.artist_delete, name='artist_delete'),
 
 
-    url(r'^songs$', views.song_list, name='song_list'),
+    url(r'^songs/$', views.song_list, name='song_list'),
     url(r'^songs/(?P<pk>\d+)$', views.song_detail, name='song_detail'),
     url(r'^songs/new$', views.song_create, name='song_create'),
     url(r'^songs/(?P<pk>\d+)/edit$', views.song_edit, name='song_edit'),
