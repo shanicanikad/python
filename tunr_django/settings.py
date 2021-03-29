@@ -1,4 +1,6 @@
 from datetime import timedelta
+from mysite.myapp.models import Organization
+admin.site.register(Organization)
 import django_heroku
 import os 
 """
