@@ -188,7 +188,7 @@ def artist_edit(request, pk):
             return redirect('artist_detail', pk=artist.pk)
     else:
         form = ArtistForm(instance=artist)
-    return render(request, 'tunr/artist_formƒ.html', {'form': form})
+    return render(request, 'tunr/artist_form.html', {'form': form})
 
 
 @login_required
