@@ -1,4 +1,4 @@
-tunr_django
+#tunr_django
 
 Welcome to My Music Playlist Django App!
 
